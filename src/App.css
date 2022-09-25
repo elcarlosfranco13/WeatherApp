@@ -1,0 +1,27 @@
+.App{
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 100%; */
+  min-height: 100vh;
+  z-index: 2;
+
+}
+
+.WeatherCard{
+  
+  border: 2px solid blue;
+}
+
+.Card{
+  background-color: aquamarine;
+  
+}
+
+video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
