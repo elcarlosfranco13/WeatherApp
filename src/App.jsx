@@ -46,7 +46,6 @@ function App() {
   
   return (
     
-    
     <div className="App">
       <video className='clouds_video' src = {clouds} autoPlay muted loop></video>
       {

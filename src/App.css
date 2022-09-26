@@ -1,21 +1,17 @@
 .App{
-  border: 2px solid red;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* width: 100%; */
+  width: 100%;
   min-height: 100vh;
   z-index: 2;
 
 }
 
-.WeatherCard{
-  
-  border: 2px solid blue;
-}
 
-.Card{
-  background-color: aquamarine;
+.card{
+  font-family: 'Montserrat', sans-serif;
+  color: navajowhite;
   
 }
 
@@ -25,3 +21,63 @@ video{
   object-fit: cover;
   position: absolute;
 }
+
+/* Version movil 360 px*/
+@media (max-width: 600px){
+
+  .card{
+    background-color: rgb(107 119 193 / 45%);
+    border-radius: 12px;
+    padding: 11px;
+    text-align: center;
+    padding-bottom: 22px;
+  }
+
+  .card__title{
+    font-size: 30px;
+    padding-bottom: 10px;
+  }
+  .card_subtitle{
+    font-size: 26px;
+  }
+
+  .card__cloudTipe{
+    font-size: 24px;
+    padding-bottom: 9px;
+
+  }
+  .card__atributes{
+    text-align: center;
+    padding: 3px;
+
+  }
+  .card__atributes li{
+    padding: 1px;
+    font-size: 16px;
+  }
+  span{
+    color: rgba(1, 1, 51, 0.685);
+    font-weight: bold;
+  }
+
+  .card__temperature{
+    font-size: 40px;
+  }
+
+  .card__button{
+    font-size: 17px;
+    border-radius: 14px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 5px;
+    color: navajowhite;
+    background-color: #1d1d6e;
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+ 
+
+  
+
+
